@@ -376,6 +376,7 @@ public static void print(List<Node> nodeList){
 
             perpiece /= 2;
         }
+	out.close();	// Update 06.06.2017
         } catch (IOException e) {
    				System.err.println(e);
 		}
